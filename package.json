@@ -15,6 +15,7 @@
     "mobx-react-devtools": "^4.2.5",
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
+    "react-scripts": "^0.2.3",
     "react-timeago": "^3.2.0",
     "slugify": "^1.1.0",
     "twitter-text": "^1.14.3"
