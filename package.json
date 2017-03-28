@@ -6,11 +6,18 @@
     "react-scripts": "0.2.3"
   },
   "dependencies": {
-    "mobx": "^2.5.0",
+    "chance": "^1.0.6",
+    "firebase": "^3.7.1",
+    "firebase-nest": "^0.3.0",
+    "mobx": "^3.1.5",
+    "mobx-firebase-store": "^1.0.3",
     "mobx-react": "^3.5.5",
     "mobx-react-devtools": "^4.2.5",
     "react": "^15.3.1",
-    "react-dom": "^15.3.1"
+    "react-dom": "^15.3.1",
+    "react-timeago": "^3.2.0",
+    "slugify": "^1.1.0",
+    "twitter-text": "^1.14.3"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,10 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Counter from './Counter';
+import ReactDom from 'react-dom';
 import App from './App';
-import './index.css';
 
-ReactDOM.render(
-  <App counter={new Counter()} />,
+const config = {
+  databaseURL: 'https://reactmobxtwitterclone.firebaseio.com',
+};
+
+ReactDom.render(
+  <App config={config} />,
   document.getElementById('root')
 );
